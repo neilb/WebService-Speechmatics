@@ -36,7 +36,7 @@ has token        => (is => 'ro', required => 1);
 has ua           => (is => 'ro', required => 1, default => $default_ua);
 has base_url     => (is => 'ro', required => 1, default => sub { $BASE_URL });
 has user_id      => (is => 'ro', required => 1);
-has lang         => (is => 'ro', required => 1);
+has lang         => (is => 'ro', required => 0);
 has callback     => (is => 'ro');
 has notification => (is => 'ro', default => sub { 'none' });
 
