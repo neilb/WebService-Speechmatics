@@ -1,5 +1,8 @@
 Revision history for Perl module WebService::Speechmatics
 
+0.02 2016-02-14 NEILB
+    - Removed a debugging print statement.
+
 0.01 2015-03-23 NEILB
     - First release to CPAN
 

@@ -145,8 +145,6 @@ sub transcript
     my $response = $self->$get($path);
     my $txdata   = decode_json($response->content);
 
-print STDERR "RESPONSE: ", $response->content, "\n";
-
     if (exists $txdata->{job}) {
         my $job      = WebService::Speechmatics::Job->new($txdata->{job});
         my @speakers = map { WebService::Speechmatics::Speaker->new($_) }
