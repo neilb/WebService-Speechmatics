@@ -213,7 +213,7 @@ language (of the speaker(s) in the audio). Right now that can be one of
  en-US    American English
 
 You can either specify the language every time you submit a transcription
-job, or you can specify it when to instantiate this module,
+job, or you can specify it when you instantiate this module,
 as in the SYNOPSIS.
 
 
