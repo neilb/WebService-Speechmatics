@@ -306,7 +306,7 @@ then dispay the converted text:
 
 L<speechmatics.com|https://speechmatics.com> - home page for Speechmatics
 
-L<API doc|https://speechmatics.com/api-details> - the official documentation
+L<API doc|https://app.speechmatics.com/api-details> - the official documentation
 for the Speechmatics API.
 
 =head1 REPOSITORY
